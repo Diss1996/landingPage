@@ -1,2 +1,2 @@
 # landingPage
-project for odin project
+beginner project for odin project
