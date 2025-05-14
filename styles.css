@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,7 @@ ul{
     padding: 0;
     display: flex;
     gap: 10px;
+  
 }
 
 .container{
@@ -26,7 +28,8 @@ ul{
 .logo{
     color: #f9faf8;
     font-size: 24px;
-
+    display: flex;
+    align-items: center;
 }
 
 h3{
@@ -38,7 +41,7 @@ h3{
 button{
     background-color: #3882f6;
     border: none;
-    padding: 5px;
+    padding: 5px 20px;
     color: #f9faf8;
     border-radius: 10px;
 }
@@ -49,6 +52,12 @@ button{
 
 img {
     color: #f9faf8;
+    background-color: gray;
+    padding:90px;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 
@@ -76,7 +85,7 @@ a, .secondaryText{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 75px;
    
 }
 
@@ -110,8 +119,22 @@ a, .secondaryText{
 .topheader{
     display: flex;
     justify-content: space-between;
-    margin-top: -40px;
+    margin-top: -60px;
     margin-bottom: 50px;
+    align-content: center;
+}
 
-  
+.headerrightleftcontainer{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px 200px;
+  }
+
+.headerright{
+    flex: 1;
+}
+
+.headerleft{
+    flex: 1;
 }
