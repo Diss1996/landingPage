@@ -91,6 +91,11 @@ a, .secondaryText{
 
 .information{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap:30px;
 }
 
 .quote{
@@ -138,3 +143,17 @@ a, .secondaryText{
 .headerleft{
     flex: 1;
 }
+
+.squares ,.descriptions{
+    display: flex;
+    gap: 30px;
+    width: 600px;
+    justify-content: center;
+}
+
+.descriptions p{
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+} 
+
