@@ -75,9 +75,14 @@ a, .secondaryText{
 }
 
 .quotetext{
-    font-size: 36px;
-    font-style: "light italic";
     color: #1f2937;
+    width: 600px;
+    font-size: 20px;
+}
+
+.quoted{
+    font-style: normal;
+    text-align: end;
 }
 
 .header{
@@ -100,8 +105,10 @@ a, .secondaryText{
 
 .quote{
     background-color: #e5e7eb;
-    padding: 50px;
+    padding: 70px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .signup{
